@@ -2,10 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-main {
-    background: red;
-}
-
 .pageStyles {
     color: #232129;
     padding: 96;
