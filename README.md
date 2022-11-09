@@ -25,6 +25,7 @@
     ```shell
     cd my-gatsby-site/
     npm run develop
+    npm run tailwind
     ```
 
 3.  **Open the code and start customizing!**
