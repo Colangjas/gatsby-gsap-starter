@@ -14,10 +14,9 @@ main {
     flex-flow: wrap;
   }
 
-  .box {
-    display: block;
-  }
-
-  .green {
-    background-color: green;
+  svg {
+    height: 90vh;
+    max-height: 300px;
+    border: solid 2px white;
+    overflow: visible;
   }
