@@ -12,7 +12,8 @@
     "start": "gatsby develop",
     "build": "gatsby build",
     "serve": "gatsby serve",
-    "clean": "gatsby clean"
+    "clean": "gatsby clean",
+    "tailwind": "npx tailwindcss -i ./src/_css/styles.css -o ./src/_css/global.css --watch"
   },
   "dependencies": {
     "gatsby": "^5.0.0",
@@ -23,5 +24,11 @@
     "gatsby-transformer-sharp": "^5.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.13",
+    "gatsby-plugin-postcss": "^6.0.0",
+    "postcss": "^8.4.18",
+    "tailwindcss": "^3.2.2"
   }
 }
